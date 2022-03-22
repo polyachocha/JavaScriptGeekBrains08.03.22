@@ -1,0 +1,33 @@
+.header {
+    background-color: #222222;
+    min-height: 75px;
+    position: relative;
+}
+
+.btn-cart {
+    background-color: cornflowerblue;
+    color: cornsilk;
+    position: absolute;
+    top: 20px;
+    left: 90%;
+    cursor: pointer;
+    min-height: 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    min-height: 220px;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 0;
+}
+
+.img-product {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
