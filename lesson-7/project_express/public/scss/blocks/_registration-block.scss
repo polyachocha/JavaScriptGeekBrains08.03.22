@@ -1,0 +1,27 @@
+.registration-block__general {
+    min-height: 675px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.registration-block__description-list {
+    margin: 0;
+    list-style: none;
+}
+
+.registration-block__description-item {
+    position: relative;
+}
+
+.registration-block__description-item::before {
+    content: '';
+    width: 20px;
+    height: 16px;
+    background-color: $white;
+    position: absolute;
+    top: 5px;
+    left: -24px;
+    background-image: url(../img/check.svg);
+    background-size: 20px 16px;
+}

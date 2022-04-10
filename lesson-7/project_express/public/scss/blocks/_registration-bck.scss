@@ -1,0 +1,13 @@
+.registration-bck {
+    width: 100%;
+    min-height: 148px;
+    background-color: $registration-pink-bck;
+    display: flex;
+    align-items: center;
+
+    .registration-bck-title {
+        @include font (24px, 29px, 400);
+        color: $pink-color;
+        text-transform: uppercase;
+    }
+}
