@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <header-comp ref="showCart"></header-comp>
+        <cart-comp ref="cart"></cart-comp>
+        <error ref="error"></error>
+        <main>
+            <banner-comp></banner-comp>
+            <sales-comp></sales-comp>
+            <product-comp ref="products"></product-comp>
+        </main>
+        <advantages-comp></advantages-comp>
+        <footer-comp></footer-comp>
+    </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/header-comp.js"></script>
+    <script src="js/banner-comp.js"></script>
+    <script src="js/sales-comp.js"></script>
+    <script src="js/product-comp.js"></script>
+    <script src="js/advantages-comp.js"></script>
+    <script src="js/footer-comp.js"></script>
+    <script src="js/cart-comp.js"></script>
+    <script src="js/error-comp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
