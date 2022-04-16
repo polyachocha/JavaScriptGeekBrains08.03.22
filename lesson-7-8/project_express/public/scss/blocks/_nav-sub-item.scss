@@ -1,0 +1,32 @@
+.nav-sub-item__list {
+    margin: 12px 0 20px 0;
+}
+
+.nav-sub-item__link {
+    width: 55px;
+    min-height: 17px;
+    text-transform: uppercase;
+    color: $pink-color;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration: none;
+    margin: 0 0 0 33px;
+}
+
+.nav-sub-item__list-link {
+    text-decoration: none;
+    color: $grey-menu;
+    font-weight: 400;
+    line-height: 17px;
+    margin: 0 0 0 55px;
+}
+
+.nav-sub-item__list-link:hover,
+.nav-sub-item__list-link:focus,
+.nav-sub-item__list-link:active {
+    color: $pink-bth;
+}
+
+.nav-sub-item__item {
+    margin: 0 0 12px 0;
+}

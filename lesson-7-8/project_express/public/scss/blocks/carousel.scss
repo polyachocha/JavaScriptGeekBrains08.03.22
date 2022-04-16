@@ -1,0 +1,28 @@
+.carousel {
+    .carousel-svg-wrp {
+        background: rgba(42, 42, 42, 0.15);
+        width: 47px;
+        min-height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-svg-right {
+        fill: #000;
+    }
+
+    .carousel-svg-right:hover,
+    .carousel-svg-right:focus,
+    .carousel-svg-right:active {
+        stroke: $pink-color;
+        fill: $pink-color;
+    }
+
+    .carousel-svg-left:hover,
+    .carousel-svg-left:focus,
+    .carousel-svg-left:active {
+        stroke: $pink-color;
+        fill: $pink-color;
+    }
+}

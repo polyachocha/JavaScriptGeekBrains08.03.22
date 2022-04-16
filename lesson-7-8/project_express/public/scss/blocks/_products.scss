@@ -1,0 +1,117 @@
+.products {
+
+    .products__title {
+        @include font (30px, 36px, 400);
+        color: $black;
+        text-align: center;
+    }
+
+    .products__subtitle {
+        @include font (14px, 17px, 400);
+        color: $green;
+        text-align: center;
+    }
+
+    .products__list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 18px auto;
+    }
+
+    .products__item {
+        width: 360px;
+        min-height: 420px;
+        display: flex;
+        flex-direction: column;
+        background-color: $green-bcg;
+        margin: 30px 0 0 0;
+        position: relative;
+    }
+
+    .overlay {
+        width: 360px;
+        min-height: 420px;
+        background-color: $color-card;
+        opacity: 86%;
+        position: absolute;
+        top: 0;
+        display: none;
+    }
+
+    .products__item-btn {
+        position: absolute;
+        top: 38%;
+        left: 48%;
+        width: 138px;
+        height: 43px;
+        transform: translate(-38%, -48%);
+        border: 1px solid #FFFFFF;
+        font-weight: 400;
+        line-height: 17px;
+        color: $white;
+        background-color: transparent;
+        display: none;
+    }
+
+    .products__item-btn:active,
+    .products__item-btn:hover,
+    .products__item-btn:focus {
+        color: $pink-bth;
+        cursor: pointer;
+        border: 1px solid $pink-bth;
+    }
+
+    .products__item:hover .overlay {
+        display: block;
+    }
+
+    .products__item:hover .products__item-btn {
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .products__item-title {
+        @include font (13px, 16px, 400);
+        color: $black-title;
+        text-transform: uppercase;
+        padding: 25px 0 0 18px;
+    }
+
+    .products__item-text {
+        @include font (14px, 17px, 300);
+        color: $green-text;
+        padding: 13px 29px 0 17px;
+    }
+
+    .products__item-price {
+        @include font (16px, 19px, 400);
+        color: $pink-color;
+        padding: 18px 0 20px 19px;
+    }
+
+    .products__btn {
+        text-align: center;
+        padding: 31px 0 0 0;
+    }
+
+    .products__btn_link {
+        border: 1px solid $pink-bth;
+        margin: 49px 0 96px 0;
+        color: $pink-bth;
+        text-decoration: none;
+        width: 211px;
+        height: 47px;
+        text-align: center;
+        padding: 15px 39px;
+    }
+
+    .products__btn_link:hover,
+    .products__btn_link:active,
+    .products__btn_link:focus {
+        background-color: $pink-color;
+        color: $white;
+    }
+}

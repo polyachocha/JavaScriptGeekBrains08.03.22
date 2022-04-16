@@ -1,0 +1,31 @@
+.product-bck {
+    width: 100%;
+    min-height: 148px;
+    background-color: $registration-pink-bck;
+    display: flex;
+    align-items: center;
+
+    .product-bck-wrp {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .product-bck__title {
+        @include font (24px, 29px, 400);
+        color: $pink-color;
+        text-transform: uppercase;
+    }
+
+    .product-bck__navtitle {
+        @include font (14px, 17px, 300);
+        color: $grey-productpage;
+        text-transform: uppercase;
+    }
+
+    .product-bck__subnavtitle {
+        @include font (14px, 17px, 700);
+        color: $pink-color;
+        text-transform: uppercase;
+    }
+}
